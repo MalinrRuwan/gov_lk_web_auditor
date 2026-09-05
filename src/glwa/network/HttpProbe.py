@@ -5,7 +5,7 @@ from .SafeHttpClient import SafeHttpClient
 
 
 class HttpProbe:
-    def __init__(self, timeout: float = 10.0, max_bytes: int = 1_000_000):
+    def __init__(self, timeout: float = 30.0, max_bytes: int = 1_000_000):
         self.timeout = timeout
         self.max_bytes = max_bytes
         self.client = SafeHttpClient(timeout)
