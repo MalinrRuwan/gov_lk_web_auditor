@@ -1,6 +1,6 @@
 # Grading Government Websites (`glwa`)
 
-[![MIT License](https://img.shields.io/github/license/nuuuwan/glwa)](LICENSE) [![Author](https://img.shields.io/badge/author-nuuuwan-181717?logo=github)](https://github.com/nuuuwan) ![Last updated](https://img.shields.io/badge/last_updated-2026--09--05_10%3A36_SLST-007ec6)
+[![MIT License](https://img.shields.io/github/license/nuuuwan/glwa)](LICENSE) [![Author](https://img.shields.io/badge/author-nuuuwan-181717?logo=github)](https://github.com/nuuuwan) ![Last updated](https://img.shields.io/badge/last_updated-2026--09--05_10%3A49_SLST-007ec6)
 
 `glwa` audits Sri Lankan government websites using an evidence-based, cumulative grading model. It records reproducible evidence for each level and publishes the latest classification and audit report for every website in Sri Lanka. 🇱🇰
 
@@ -22,15 +22,12 @@ The score is out of 3. `🔴 Level 1` through `🟢 Level 3` each contribute up 
 ## Sites by level
 
 ```mermaid
-%%{init: {"themeVariables":{"pie1":"black","pie2":"red","pie3":"orange
-
-
-","pie4":"green"}}}%%
+%%{init: {"themeVariables":{"pie1":"black","pie2":"red","pie3":"orange","pie4":"green"}}}%%
 pie showData
     title Sites by level
-    "⚫ Level 0" : 1
-    "🔴 Level 1" : 1
-    "🟠 Level 2" : 3
+    "⚫ Level 0" : 3
+    "🔴 Level 1" : 2
+    "🟠 Level 2" : 5
     "🟢 Level 3" : 0
 ```
 
@@ -42,27 +39,30 @@ pie showData
 
 ## `⚫ Level 0`
 
-**1 URLs at `⚫ Level 0`.**
+**3 URLs at `⚫ Level 0`.**
 
 Checks used: Availability and usability checks.
 
 | Score | URL |
 | ---: | --- |
 | 0.3/3 | [https://aib.gov.lk/aib/](latest_audit_reports/aib.gov.lk/audit.md) |
+| 0.3/3 | [https://dea.gov.lk/](latest_audit_reports/dea.gov.lk/audit.md) |
+| 0.7/3 | [http://www.landsettledept.gov.lk/](latest_audit_reports/www.landsettledept.gov.lk/audit.md) |
 
 ## `🔴 Level 1`
 
-**1 URLs at `🔴 Level 1`.**
+**2 URLs at `🔴 Level 1`.**
 
 Checks used: DNS resolves, Domain not parked, Site not defaced, Content relevant, Hosting configured, HTTP available, Redirect related, TLS browser trusted, TLS not expired, TLS hostname matches.
 
 | Score | URL |
 | ---: | --- |
+| 1.7/3 | [https://landcom.gov.lk/](latest_audit_reports/landcom.gov.lk/audit.md) |
 | 1.7/3 | [https://www.agrarian.lk/](latest_audit_reports/www.agrarian.lk/audit.md) |
 
 ## `🟠 Level 2`
 
-**3 URLs at `🟠 Level 2`.**
+**5 URLs at `🟠 Level 2`.**
 
 Checks used: Postal address, Reachable contacts, Named responsibility.
 
@@ -71,6 +71,8 @@ Checks used: Postal address, Reachable contacts, Named responsibility.
 | 2.1/3 | [https://daph.gov.lk/](latest_audit_reports/daph.gov.lk/audit.md) |
 | 2.1/3 | [https://doa.gov.lk/](latest_audit_reports/doa.gov.lk/audit.md) |
 | 2.1/3 | [https://www.cecb.lk/](latest_audit_reports/www.cecb.lk/audit.md) |
+| 2.3/3 | [https://cinnamon.gov.lk/](latest_audit_reports/cinnamon.gov.lk/audit.md) |
+| 2.4/3 | [https://www.irrigation.gov.lk/](latest_audit_reports/www.irrigation.gov.lk/audit.md) |
 
 ## `🟢 Level 3`
 

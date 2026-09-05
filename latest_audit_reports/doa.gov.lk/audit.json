@@ -213,19 +213,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388 331 ",
+      "detail": "Published phone: +94 812 388333 ",
       "source": "https://doa.gov.lk/home-ta/",
       "data": {
-        "value": "+94 812 388 331 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 812 388331",
-      "source": "https://doa.gov.lk/home-ta/",
-      "data": {
-        "value": "+94 812 388331"
+        "value": "+94 812 388333 "
       }
     },
     {
@@ -240,19 +231,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388333 ",
+      "detail": "Published phone: +94 812 388331",
       "source": "https://doa.gov.lk/home-ta/",
       "data": {
-        "value": "+94 812 388333 "
+        "value": "+94 812 388331"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@doa.gov.lk",
+      "detail": "Published phone: +94 812 388 331 ",
       "source": "https://doa.gov.lk/home-ta/",
       "data": {
-        "value": "info@doa.gov.lk"
+        "value": "+94 812 388 331 "
       }
     },
     {
@@ -262,6 +253,15 @@
       "source": "https://doa.gov.lk/home-ta/",
       "data": {
         "value": "dgoffice@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@doa.gov.lk",
+      "source": "https://doa.gov.lk/home-ta/",
+      "data": {
+        "value": "info@doa.gov.lk"
       }
     },
     {
@@ -294,19 +294,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388 331 ",
+      "detail": "Published phone: +94 812 388333 ",
       "source": "https://doa.gov.lk/home-page/",
       "data": {
-        "value": "+94 812 388 331 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 812 388331",
-      "source": "https://doa.gov.lk/home-page/",
-      "data": {
-        "value": "+94 812 388331"
+        "value": "+94 812 388333 "
       }
     },
     {
@@ -321,19 +312,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388333 ",
+      "detail": "Published phone: +94 812 388331",
       "source": "https://doa.gov.lk/home-page/",
       "data": {
-        "value": "+94 812 388333 "
+        "value": "+94 812 388331"
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@doa.gov.lk",
+      "detail": "Published phone: +94 812 388 331 ",
       "source": "https://doa.gov.lk/home-page/",
       "data": {
-        "value": "info@doa.gov.lk"
+        "value": "+94 812 388 331 "
       }
     },
     {
@@ -343,6 +334,15 @@
       "source": "https://doa.gov.lk/home-page/",
       "data": {
         "value": "dgoffice@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@doa.gov.lk",
+      "source": "https://doa.gov.lk/home-page/",
+      "data": {
+        "value": "info@doa.gov.lk"
       }
     },
     {
@@ -375,10 +375,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388 331 ",
+      "detail": "Published phone: +94 812 388042 ",
       "source": "https://doa.gov.lk/administration_divisionall-tamil/",
       "data": {
-        "value": "+94 812 388 331 "
+        "value": "+94 812 388042 "
       }
     },
     {
@@ -393,10 +393,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388042 ",
+      "detail": "Published phone: +94 812 388 331 ",
       "source": "https://doa.gov.lk/administration_divisionall-tamil/",
       "data": {
-        "value": "+94 812 388042 "
+        "value": "+94 812 388 331 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dgoffice@doa.gov.lk",
+      "source": "https://doa.gov.lk/administration_divisionall-tamil/",
+      "data": {
+        "value": "dgoffice@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: estb@doa.gov.lk",
+      "source": "https://doa.gov.lk/administration_divisionall-tamil/",
+      "data": {
+        "value": "estb@doa.gov.lk"
       }
     },
     {
@@ -415,24 +433,6 @@
       "source": "https://doa.gov.lk/administration_divisionall-tamil/",
       "data": {
         "value": "info.admin@doa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: estb@doa.gov.lk",
-      "source": "https://doa.gov.lk/administration_divisionall-tamil/",
-      "data": {
-        "value": "estb@doa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgoffice@doa.gov.lk",
-      "source": "https://doa.gov.lk/administration_divisionall-tamil/",
-      "data": {
-        "value": "dgoffice@doa.gov.lk"
       }
     },
     {
@@ -465,10 +465,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388 331 ",
+      "detail": "Published phone: +94 812 388042 ",
       "source": "https://doa.gov.lk/establishment_divisionall-tamil/",
       "data": {
-        "value": "+94 812 388 331 "
+        "value": "+94 812 388042 "
       }
     },
     {
@@ -492,10 +492,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388042 ",
+      "detail": "Published phone: +94 812 388 331 ",
       "source": "https://doa.gov.lk/establishment_divisionall-tamil/",
       "data": {
-        "value": "+94 812 388042 "
+        "value": "+94 812 388 331 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dgoffice@doa.gov.lk",
+      "source": "https://doa.gov.lk/establishment_divisionall-tamil/",
+      "data": {
+        "value": "dgoffice@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: estb@doa.gov.lk",
+      "source": "https://doa.gov.lk/establishment_divisionall-tamil/",
+      "data": {
+        "value": "estb@doa.gov.lk"
       }
     },
     {
@@ -514,24 +532,6 @@
       "source": "https://doa.gov.lk/establishment_divisionall-tamil/",
       "data": {
         "value": "director.estb@doa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: estb@doa.gov.lk",
-      "source": "https://doa.gov.lk/establishment_divisionall-tamil/",
-      "data": {
-        "value": "estb@doa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgoffice@doa.gov.lk",
-      "source": "https://doa.gov.lk/establishment_divisionall-tamil/",
-      "data": {
-        "value": "dgoffice@doa.gov.lk"
       }
     },
     {
@@ -564,10 +564,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 030040 ",
+      "detail": "Published phone: +94 812 030048 ",
       "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
       "data": {
-        "value": "+94 812 030040 "
+        "value": "+94 812 030048 "
       }
     },
     {
@@ -591,19 +591,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 030048 ",
+      "detail": "Published phone: +94 812 388 331 ",
       "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
       "data": {
-        "value": "+94 812 030048 "
+        "value": "+94 812 388 331 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388 331 ",
+      "detail": "Published phone: +94 812 030040 ",
       "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
       "data": {
-        "value": "+94 812 388 331 "
+        "value": "+94 812 030040 "
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dgoffice@doa.gov.lk",
+      "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
+      "data": {
+        "value": "dgoffice@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: ad.ict.naicc@doa.doa.com",
+      "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
+      "data": {
+        "value": "ad.ict.naicc@doa.doa.com"
       }
     },
     {
@@ -613,6 +631,15 @@
       "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
       "data": {
         "value": "info@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: dd.ict.naicc@doa.gov.lk",
+      "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
+      "data": {
+        "value": "dd.ict.naicc@doa.gov.lk"
       }
     },
     {
@@ -634,33 +661,6 @@
       }
     },
     {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dgoffice@doa.gov.lk",
-      "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
-      "data": {
-        "value": "dgoffice@doa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: dd.ict.naicc@doa.gov.lk",
-      "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
-      "data": {
-        "value": "dd.ict.naicc@doa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: ad.ict.naicc@doa.doa.com",
-      "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
-      "data": {
-        "value": "ad.ict.naicc@doa.doa.com"
-      }
-    },
-    {
       "check": "postal_address",
       "status": "pass",
       "detail": "Published postal address: info@doa.gov.lk / dgoffice@doa.gov.lk Office Address Department of Agriculture,P.O.Box.01, Peradeniya முகப்பு NAICC பக்க",
@@ -685,15 +685,6 @@
       "source": "https://doa.gov.lk/naicc-services-ict-programs-ta/",
       "data": {
         "value": "rs,"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 812 030040",
-      "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
-      "data": {
-        "value": "+94 812 030040"
       }
     },
     {
@@ -708,6 +699,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 0812 03004",
+      "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
+      "data": {
+        "value": "+94 0812 03004"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 812 030048 ",
       "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
       "data": {
@@ -717,55 +717,19 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388 331 ",
+      "detail": "Published phone: +94 812 030040",
       "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
       "data": {
-        "value": "+94 812 388 331 "
+        "value": "+94 812 030040"
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 0812 03004",
+      "detail": "Published phone: +94 812 388 331 ",
       "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
       "data": {
-        "value": "+94 0812 03004"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@doa.gov.lk",
-      "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
-      "data": {
-        "value": "info@doa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: naicc@doa.gov.lk",
-      "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
-      "data": {
-        "value": "naicc@doa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: wickramasinghe.wmkr@doa.gov.lk",
-      "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
-      "data": {
-        "value": "wickramasinghe.wmkr@doa.gov.lk"
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: doa.naicc.video@gmail.com",
-      "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
-      "data": {
-        "value": "doa.naicc.video@gmail.com"
+        "value": "+94 812 388 331 "
       }
     },
     {
@@ -780,10 +744,46 @@
     {
       "check": "email",
       "status": "pass",
+      "detail": "Published email: info@doa.gov.lk",
+      "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
+      "data": {
+        "value": "info@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: wickramasinghe.wmkr@doa.gov.lk",
+      "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
+      "data": {
+        "value": "wickramasinghe.wmkr@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: naicc@doa.gov.lk",
+      "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
+      "data": {
+        "value": "naicc@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
       "detail": "Published email: avcdoa@gmail.com",
       "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
       "data": {
         "value": "avcdoa@gmail.com"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: doa.naicc.video@gmail.com",
+      "source": "https://doa.gov.lk/naicc-services-tv-programs-ta/",
+      "data": {
+        "value": "doa.naicc.video@gmail.com"
       }
     },
     {
@@ -816,6 +816,33 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 766 614176 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 766 614176 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 112 632717 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 112 632717 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 812 424592 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 812 424592 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 332 272053 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
@@ -825,55 +852,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 372 057181 ",
+      "detail": "Published phone: +94 242 222273 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 372 057181 "
+        "value": "+94 242 222273 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 212 280070 ",
+      "detail": "Published phone: +94 472 223218 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 212 280070 "
+        "value": "+94 472 223218 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 912 228832 ",
+      "detail": "Published phone: +94 412 241606 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 912 228832 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 472 247415 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 472 247415 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 553 560097 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 553 560097 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 212 212497 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 212 212497 "
+        "value": "+94 412 241606 "
       }
     },
     {
@@ -906,10 +906,73 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 342 222440 ",
+      "detail": "Published phone: +94 272 050222 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 342 222440 "
+        "value": "+94 272 050222 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 333 135853 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 333 135853 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 552 258293 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 552 258293 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 553 560097 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 553 560097 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 552 265349 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 552 265349 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 572 221611 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 572 221611 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 212 212497 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 212 212497 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 382 291617 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 382 291617 "
       }
     },
     {
@@ -933,60 +996,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388665 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 812 388665 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 552 265349 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 552 265349 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 333 135853 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 333 135853 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 472 226540 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 472 226540 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 252 222437 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 252 222437 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 382 291617 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 382 291617 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 372 260253 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
@@ -996,91 +1005,28 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 766 614176 ",
+      "detail": "Published phone: +94 912 228832 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 766 614176 "
+        "value": "+94 912 228832 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 412 241606 ",
+      "detail": "Published phone: +94 212 280070 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 412 241606 "
+        "value": "+94 212 280070 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 342 261323 ",
+      "detail": "Published phone: +94 412 246201 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 342 261323 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 812 069339 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 812 069339 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 472 223218 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 472 223218 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 812 388 331 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 812 388 331 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 112 632717 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 112 632717 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 572 221611 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 572 221611 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 372 267399 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 372 267399 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 663 123211 ",
-      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
-      "data": {
-        "value": "+94 663 123211 "
+        "value": "+94 412 246201 "
       }
     },
     {
@@ -1095,37 +1041,46 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 424592 ",
+      "detail": "Published phone: +94 663 123211 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 812 424592 "
+        "value": "+94 663 123211 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 552 258293 ",
+      "detail": "Published phone: +94 812 388665 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 552 258293 "
+        "value": "+94 812 388665 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 242 222273 ",
+      "detail": "Published phone: +94 342 222440 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 242 222273 "
+        "value": "+94 342 222440 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 112 696547 ",
+      "detail": "Published phone: +94 342 261323 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 112 696547 "
+        "value": "+94 342 261323 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 372 057181 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 372 057181 "
       }
     },
     {
@@ -1135,6 +1090,33 @@
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
         "value": "+94 652 059676 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 472 247415 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 472 247415 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 472 226540 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 472 226540 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 352 265444 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 352 265444 "
       }
     },
     {
@@ -1158,6 +1140,15 @@
     {
       "check": "phone",
       "status": "pass",
+      "detail": "Published phone: +94 812 069339 ",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "+94 812 069339 "
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
       "detail": "Published phone: +94 412 221672 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
@@ -1167,37 +1158,37 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 412 246201 ",
+      "detail": "Published phone: +94 112 696547 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 412 246201 "
+        "value": "+94 112 696547 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 272 050222 ",
+      "detail": "Published phone: +94 252 222437 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 272 050222 "
+        "value": "+94 252 222437 "
       }
     },
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 352 265444 ",
+      "detail": "Published phone: +94 812 388 331 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "+94 352 265444 "
+        "value": "+94 812 388 331 "
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@doa.gov.lk",
+      "detail": "Published phone: +94 372 267399 ",
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
-        "value": "info@doa.gov.lk"
+        "value": "+94 372 267399 "
       }
     },
     {
@@ -1207,6 +1198,15 @@
       "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
       "data": {
         "value": "dgoffice@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@doa.gov.lk",
+      "source": "https://doa.gov.lk/agriculture-publication-sales-offices/",
+      "data": {
+        "value": "info@doa.gov.lk"
       }
     },
     {
@@ -1239,24 +1239,6 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388 331 ",
-      "source": "https://doa.gov.lk/naicc-services-ict-programs-websites/",
-      "data": {
-        "value": "+94 812 388 331 "
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
-      "detail": "Published phone: +94 812 030040",
-      "source": "https://doa.gov.lk/naicc-services-ict-programs-websites/",
-      "data": {
-        "value": "+94 812 030040"
-      }
-    },
-    {
-      "check": "phone",
-      "status": "pass",
       "detail": "Published phone: +94 811 234567 ",
       "source": "https://doa.gov.lk/naicc-services-ict-programs-websites/",
       "data": {
@@ -1273,12 +1255,21 @@
       }
     },
     {
-      "check": "email",
+      "check": "phone",
       "status": "pass",
-      "detail": "Published email: info@doa.gov.lk",
+      "detail": "Published phone: +94 812 030040",
       "source": "https://doa.gov.lk/naicc-services-ict-programs-websites/",
       "data": {
-        "value": "info@doa.gov.lk"
+        "value": "+94 812 030040"
+      }
+    },
+    {
+      "check": "phone",
+      "status": "pass",
+      "detail": "Published phone: +94 812 388 331 ",
+      "source": "https://doa.gov.lk/naicc-services-ict-programs-websites/",
+      "data": {
+        "value": "+94 812 388 331 "
       }
     },
     {
@@ -1288,6 +1279,15 @@
       "source": "https://doa.gov.lk/naicc-services-ict-programs-websites/",
       "data": {
         "value": "dgoffice@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@doa.gov.lk",
+      "source": "https://doa.gov.lk/naicc-services-ict-programs-websites/",
+      "data": {
+        "value": "info@doa.gov.lk"
       }
     },
     {
@@ -1329,10 +1329,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388 331 ",
+      "detail": "Published phone: +94 812 030048 ",
       "source": "https://doa.gov.lk/naicc-services-ict-programs-mobile-applications-ta/",
       "data": {
-        "value": "+94 812 388 331 "
+        "value": "+94 812 030048 "
       }
     },
     {
@@ -1347,19 +1347,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 030048 ",
+      "detail": "Published phone: +94 812 388 331 ",
       "source": "https://doa.gov.lk/naicc-services-ict-programs-mobile-applications-ta/",
       "data": {
-        "value": "+94 812 030048 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@doa.gov.lk",
-      "source": "https://doa.gov.lk/naicc-services-ict-programs-mobile-applications-ta/",
-      "data": {
-        "value": "info@doa.gov.lk"
+        "value": "+94 812 388 331 "
       }
     },
     {
@@ -1369,6 +1360,15 @@
       "source": "https://doa.gov.lk/naicc-services-ict-programs-mobile-applications-ta/",
       "data": {
         "value": "dgoffice@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@doa.gov.lk",
+      "source": "https://doa.gov.lk/naicc-services-ict-programs-mobile-applications-ta/",
+      "data": {
+        "value": "info@doa.gov.lk"
       }
     },
     {
@@ -1410,10 +1410,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 388 331 ",
+      "detail": "Published phone: +94 812 030048 ",
       "source": "https://doa.gov.lk/naicc-services-ict-programs-social-media-ta/",
       "data": {
-        "value": "+94 812 388 331 "
+        "value": "+94 812 030048 "
       }
     },
     {
@@ -1428,19 +1428,10 @@
     {
       "check": "phone",
       "status": "pass",
-      "detail": "Published phone: +94 812 030048 ",
+      "detail": "Published phone: +94 812 388 331 ",
       "source": "https://doa.gov.lk/naicc-services-ict-programs-social-media-ta/",
       "data": {
-        "value": "+94 812 030048 "
-      }
-    },
-    {
-      "check": "email",
-      "status": "pass",
-      "detail": "Published email: info@doa.gov.lk",
-      "source": "https://doa.gov.lk/naicc-services-ict-programs-social-media-ta/",
-      "data": {
-        "value": "info@doa.gov.lk"
+        "value": "+94 812 388 331 "
       }
     },
     {
@@ -1450,6 +1441,15 @@
       "source": "https://doa.gov.lk/naicc-services-ict-programs-social-media-ta/",
       "data": {
         "value": "dgoffice@doa.gov.lk"
+      }
+    },
+    {
+      "check": "email",
+      "status": "pass",
+      "detail": "Published email: info@doa.gov.lk",
+      "source": "https://doa.gov.lk/naicc-services-ict-programs-social-media-ta/",
+      "data": {
+        "value": "info@doa.gov.lk"
       }
     },
     {
@@ -1811,7 +1811,7 @@
       "level": 2,
       "description": "To pass `Level 2`, citizens must be able to identify and contact the correct office for the service they need.",
       "status": "pass",
-      "reason": "Published postal address: info@doa.gov.lk / dgoffice@doa.gov.lk Office Address Department of Agriculture,P.O.Box.01, Peradeniya முகப்பு எம்மைப்பற்; Phone: +94 812 388 331 (53 phone numbers found); Email: info@doa.gov.lk (12 email addresses found); Published named responsibility: department",
+      "reason": "Published postal address: info@doa.gov.lk / dgoffice@doa.gov.lk Office Address Department of Agriculture,P.O.Box.01, Peradeniya முகப்பு எம்மைப்பற்; Phone: +94 812 388333 (53 phone numbers found); Email: dgoffice@doa.gov.lk (12 email addresses found); Published named responsibility: department",
       "executed": true,
       "checks": [
         {
@@ -1824,7 +1824,7 @@
           "name": "reachable_contacts",
           "level": 2,
           "status": "pass",
-          "reason": "Phone: +94 812 388 331 (53 phone numbers found); Email: info@doa.gov.lk (12 email addresses found)"
+          "reason": "Phone: +94 812 388333 (53 phone numbers found); Email: dgoffice@doa.gov.lk (12 email addresses found)"
         },
         {
           "name": "named_responsibility",
