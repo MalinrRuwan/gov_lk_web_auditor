@@ -1,3 +1,4 @@
+import time
 from urllib.parse import urljoin, urlsplit
 
 import httpx
@@ -27,21 +28,18 @@ class SafeHttpClient:
                 self._validate(current)
                 host = urlsplit(current).hostname or ""
                 self.rate_limiter.wait(host)
+                started = time.monotonic()
                 with client.stream("GET", current) as response:
                     location = response.headers.get("location")
                     redirected = response.status_code in self.REDIRECT_CODES
                     if redirected and location:
+                        response.close()
                         current = urljoin(current, location)
                         redirects.append(current)
                         continue
                     content = self._read(response, max_bytes)
-                    # _read may stop early at max_bytes, leaving the stream
-                    # partially consumed; close first so .elapsed is available.
                     response.close()
-                    try:
-                        elapsed_ms = int(response.elapsed.total_seconds() * 1000)
-                    except RuntimeError:
-                        elapsed_ms = 0
+                    elapsed_ms = int((time.monotonic() - started) * 1000)
                     return FetchedPage(
                         response.status_code,
                         str(response.url),
