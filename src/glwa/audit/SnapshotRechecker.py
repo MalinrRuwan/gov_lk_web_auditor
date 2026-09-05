@@ -28,24 +28,20 @@ class SnapshotRechecker:
         "processing_time",
         "downloadable_form",
         "published_update_date",
+        "email_in_site_domain",
+        "email_domain_has_mx",
     }
 
     def run(self, data: dict):
         pages = [
-            page
-            for snapshot in data["snapshots"]
-            if (page := self._page(snapshot))
+            page for snapshot in data["snapshots"] if (page := self._page(snapshot))
         ]
         if not pages:
             return AuditReclassifier().reclassify(data)
         evidence = [
-            item
-            for item in data["evidence"]
-            if item["check"] not in self.PAGE_CHECKS
+            item for item in data["evidence"] if item["check"] not in self.PAGE_CHECKS
         ]
-        collected = PageEvidenceCollector().collect(
-            pages, data["normalized_url"]
-        )
+        collected = PageEvidenceCollector().collect(pages, data["normalized_url"])
         refreshed = {**data, "evidence": evidence}
         refreshed["evidence"].extend(item.to_dict() for item in collected)
         return AuditReclassifier().reclassify(refreshed)

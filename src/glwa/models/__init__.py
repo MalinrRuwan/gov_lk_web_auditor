@@ -6,6 +6,7 @@ from .Evidence import Evidence
 from .FetchedPage import FetchedPage
 from .HttpObservation import HttpObservation
 from .LevelResult import LevelResult
+from .MxObservation import MxObservation
 from .TlsObservation import TlsObservation
 
 __all__ = [
@@ -17,5 +18,6 @@ __all__ = [
     "FetchedPage",
     "HttpObservation",
     "LevelResult",
+    "MxObservation",
     "TlsObservation",
 ]

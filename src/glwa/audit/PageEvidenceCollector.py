@@ -1,4 +1,7 @@
+from urllib.parse import urlsplit
+
 from ..classification.ContentDetector import ContentDetector
+from .EmailDomainChecker import EmailDomainChecker
 from .EvidenceBuilder import EvidenceBuilder
 from .Level2EvidenceCollector import Level2EvidenceCollector
 from .Level3EvidenceCollector import Level3EvidenceCollector
@@ -10,6 +13,7 @@ class PageEvidenceCollector:
         self.builder = EvidenceBuilder()
         self.level2 = Level2EvidenceCollector()
         self.level3 = Level3EvidenceCollector()
+        self.email_domains = EmailDomainChecker()
 
     def collect(self, items, original):
         evidence = []
@@ -22,4 +26,6 @@ class PageEvidenceCollector:
             redirect = self.builder.redirect(original, item.final_url)
             if redirect:
                 evidence.append(redirect)
+        site_host = urlsplit(original).hostname or ""
+        evidence.extend(self.email_domains.collect(evidence, site_host))
         return evidence

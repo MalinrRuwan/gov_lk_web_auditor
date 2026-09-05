@@ -8,6 +8,8 @@ class Level2(Level):
             EvidenceCheck("postal_address", "Postal address"),
             ReachableContactsCheck(),
             EvidenceCheck("named_responsibility", "Named responsibility"),
+            EvidenceCheck("email_in_site_domain", "Email on the site domain"),
+            EvidenceCheck("email_domain_has_mx", "Email domain has MX records"),
         )
         super().__init__(
             2,
