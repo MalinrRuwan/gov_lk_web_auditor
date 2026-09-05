@@ -1,0 +1,6 @@
+{
+  "ignore": [
+    "audit.output/**",
+    "latest_audit_reports/**"
+  ]
+}
