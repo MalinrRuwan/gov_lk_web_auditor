@@ -22,7 +22,10 @@ The score is out of 3. `🔴 Level 1` through `🟢 Level 3` each contribute up 
 ## Sites by level
 
 ```mermaid
-%%{init: {"themeVariables":{"pie1":"black","pie2":"red","pie3":"orange","pie4":"green"}}}%%
+%%{init: {"themeVariables":{"pie1":"black","pie2":"red","pie3":"orange
+
+
+","pie4":"green"}}}%%
 pie showData
     title Sites by level
     "⚫ Level 0" : 1
