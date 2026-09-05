@@ -218,6 +218,8 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Audit outputs and rendered reports
+# Raw audit evidence (per-run JSON + page snapshots)
 audit.output/
-latest_audit_reports/
+# Note: latest_audit_reports/ is intentionally NOT ignored — the
+# per-site audit reports are versioned in the repo so README links
+# work on GitHub and results have history.

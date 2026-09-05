@@ -1,0 +1,8 @@
+check,status,detail,source,observed_at
+dns,pass,Public DNS resolved,,2026-09-05T11:46:27.646932+05:30
+domain_registration,error,Domain is absent from RDAP,,2026-09-05T11:46:27.646978+05:30
+tls_expired,fail,TLS certificate has expired,,2026-09-05T11:46:27.803726+05:30
+tls_browser_error,fail,Probe 1: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000),https://www.mrds.gov.lk/,2026-09-05T11:46:32.876114+05:30
+tls_browser_error,fail,Probe 2: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000),http://www.mrds.gov.lk/,2026-09-05T11:46:32.876142+05:30
+tls_browser_error,fail,Probe 3: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000),https://www.mrds.gov.lk/,2026-09-05T11:46:32.876151+05:30
+tls_browser_error,fail,Probe 4: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000),http://www.mrds.gov.lk/,2026-09-05T11:46:32.876160+05:30

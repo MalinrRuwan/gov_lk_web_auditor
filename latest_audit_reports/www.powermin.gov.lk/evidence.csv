@@ -1,0 +1,8 @@
+check,status,detail,source,observed_at
+dns,pass,Public DNS resolved,,2026-09-05T11:46:33.364572+05:30
+domain_registration,error,Domain is absent from RDAP,,2026-09-05T11:46:33.364596+05:30
+tls,error,[Errno 51] Network is unreachable,,2026-09-05T11:46:38.514257+05:30
+http,error,Probe 1: [Errno 51] Network is unreachable,https://www.powermin.gov.lk/,2026-09-05T11:47:05.793442+05:30
+http,error,Probe 2: [Errno 51] Network is unreachable,http://www.powermin.gov.lk/,2026-09-05T11:47:05.793489+05:30
+http,error,Probe 3: [Errno 51] Network is unreachable,https://www.powermin.gov.lk/,2026-09-05T11:47:05.793505+05:30
+http,error,Probe 4: [Errno 51] Network is unreachable,http://www.powermin.gov.lk/,2026-09-05T11:47:05.793518+05:30
