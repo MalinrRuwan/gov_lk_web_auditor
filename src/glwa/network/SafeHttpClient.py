@@ -35,11 +35,18 @@ class SafeHttpClient:
                         redirects.append(current)
                         continue
                     content = self._read(response, max_bytes)
+                    # _read may stop early at max_bytes, leaving the stream
+                    # partially consumed; close first so .elapsed is available.
+                    response.close()
+                    try:
+                        elapsed_ms = int(response.elapsed.total_seconds() * 1000)
+                    except RuntimeError:
+                        elapsed_ms = 0
                     return FetchedPage(
                         response.status_code,
                         str(response.url),
                         redirects,
-                        int(response.elapsed.total_seconds() * 1000),
+                        elapsed_ms,
                         response.headers.get("content-type"),
                         content,
                     )

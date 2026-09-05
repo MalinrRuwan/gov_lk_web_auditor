@@ -24,7 +24,9 @@ class HttpProbe:
                 body,
                 None,
             )
-        except (httpx.HTTPError, ValueError) as error:
-            return HttpObservation(
-                url, None, None, [], None, None, "", str(error)
-            )
+        # RuntimeError: httpx raises it when .elapsed is read before the
+        # response stream has been fully consumed or closed (e.g. a page
+        # larger than max_bytes). Degrade to an error observation instead of
+        # aborting the whole audit.
+        except (httpx.HTTPError, ValueError, RuntimeError) as error:
+            return HttpObservation(url, None, None, [], None, None, "", str(error))
