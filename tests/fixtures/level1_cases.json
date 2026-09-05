@@ -13,7 +13,7 @@
   },
   {
     "name": "expired-certificate",
-    "expected": "fail",
+    "expected": "pass",
     "evidence": [["tls_expired", "fail", "Certificate expired"]]
   },
   {

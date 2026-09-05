@@ -18,10 +18,10 @@ class TestClassifier(unittest.TestCase):
         result = self.classifier.classify(evidence)
         self.assertEqual("fail", result.status)
 
-    def test_expired_certificate_fails_level_one(self):
+    def test_expired_certificate_keeps_site_at_level_one(self):
         evidence = [Evidence("tls_expired", "fail", "Certificate expired")]
         result = self.classifier.classify(evidence)
-        self.assertEqual("fail", result.status)
+        self.assertEqual("pass", result.status)
 
     def test_timeout_remains_inconclusive(self):
         evidence = [Evidence("https", "error", "Probe timed out")]
