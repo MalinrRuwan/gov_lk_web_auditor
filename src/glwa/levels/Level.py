@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from ..checks.Check import Check
 from ..models.CheckResult import CheckResult
 from ..models.Evidence import Evidence

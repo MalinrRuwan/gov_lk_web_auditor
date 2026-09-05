@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from urllib.parse import urlsplit
 
 from ..models.DnsObservation import DnsObservation
@@ -59,9 +61,7 @@ class EvidenceBuilder:
         )
         return self._new("redirect_unrelated", "fail", detail, original)
 
-    def persistent_http(
-        self, items: list[HttpObservation]
-    ) -> Evidence | None:
+    def persistent_http(self, items: list[HttpObservation]) -> Evidence | None:
         codes = [item.status_code for item in items]
         if codes and all(code is not None and code >= 400 for code in codes):
             return self._new(
