@@ -1,0 +1,36 @@
+[
+  {
+    "name": "live",
+    "expected": "inconclusive",
+    "evidence": [["https", "pass", "HTTPS returned 200"]]
+  },
+  {
+    "name": "dead",
+    "expected": "fail",
+    "evidence": [
+      ["dns_absent", "fail", "Authoritative DNS name does not exist"]
+    ]
+  },
+  {
+    "name": "expired-certificate",
+    "expected": "fail",
+    "evidence": [["tls_expired", "fail", "Certificate expired"]]
+  },
+  {
+    "name": "parked",
+    "expected": "fail",
+    "evidence": [["parked", "fail", "Domain parking template detected"]]
+  },
+  {
+    "name": "defaced",
+    "expected": "fail",
+    "evidence": [["defaced", "fail", "Defacement marker detected"]]
+  },
+  {
+    "name": "redirected",
+    "expected": "fail",
+    "evidence": [
+      ["redirect_unrelated", "fail", "Redirected to an unrelated domain"]
+    ]
+  }
+]
