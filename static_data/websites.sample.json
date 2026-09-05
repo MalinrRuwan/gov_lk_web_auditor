@@ -1,0 +1,21 @@
+{
+  "MINISTRY-SECTION (a top-level grouping label; any name works)": {
+    "MINISTRY-OR-SUB-CATEGORY (label only; shown in reports)": {
+      "Institution name (label only; shown in reports)": "https://one.gov.lk/",
+      "One institution can have several URLs (list)": [
+        "https://www.two.gov.lk/",
+        "http://www.three.gov.lk"
+      ],
+      "Scheme is optional; https:// is assumed when missing": "four.gov.lk"
+    },
+    "Another sub-category": {
+      "Every leaf value must be a URL": "https://five.gov.lk"
+    }
+  },
+  "ANOTHER-TOP-LEVEL-SECTION": {
+    "General": {
+      "Single URL (string)": "https://www.six.gov.lk/",
+      "Duplicate URLs are de-duplicated": "https://www.six.gov.lk/"
+    }
+  }
+}
